@@ -1,0 +1,13 @@
+{
+  "name": "flow-verifier",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "deploy": "flow project deploy --network=testnet"
+  },
+  "devDependencies": {
+    "@onflow/fcl": "^1.2.1",
+    "dotenv": "^16.0.2"
+  },
+  "dependencies": {}
+}

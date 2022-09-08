@@ -1,0 +1,29 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "9366151dbbc6dece302d93aefee9b212a13263ad8cfe1fc2a76d4340edd2cafc"
+		},
+		"testnet-admin": {
+			"address": "${CONTRACT_ADDRESS}",
+			"key": "${FLOW_PRIVATE_KEY}"
+		}
+	},
+	"contracts": {},
+	"deployments": {
+		"testnet": {
+			"testnet-admin": []
+		}
+	}
+}
