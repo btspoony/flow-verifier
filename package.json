@@ -1,9 +1,9 @@
 {
-  "name": "flow-verifier",
+  "name": "onchain-verifier",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "deploy": "flow project deploy --network=testnet"
+    "flow:deploy": "flow project deploy --network=testnet"
   },
   "devDependencies": {
     "@onflow/fcl": "^1.2.1",
